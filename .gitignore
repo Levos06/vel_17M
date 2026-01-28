@@ -51,3 +51,4 @@ training/logs/
 *.tmp
 *.bak
 *.cache
+hf_model/
