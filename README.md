@@ -90,7 +90,7 @@ transformer/
 ## 🤗 HuggingFace
 
 Модель доступна на HuggingFace Hub:
-- **Model**: [Levos06/vel_17M](https://huggingface.co/Levos06/vel_17M)
+- **Model**: [levos06/vel_17M](https://huggingface.co/levos06/vel_17M)
 
 Для загрузки модели с HuggingFace:
 
