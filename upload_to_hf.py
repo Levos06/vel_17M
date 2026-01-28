@@ -93,7 +93,7 @@ Transformer модель с архитектурой DeepSeek (RMSNorm, RoPE, Sw
 
 ## Характеристики
 
-- **Параметры**: ~15M (SFT версия)
+- **Параметры**: ~17M (SFT версия)
 - **Архитектура**: Transformer с RMSNorm, RoPE, SwiGLU
 - **Контекст**: 512 токенов
 - **Словарь**: GPT-2 tokenizer (50,257 токенов)
