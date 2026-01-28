@@ -1,0 +1,53 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+
+# Data files
+*.parquet
+*.bin
+*.pt
+*.pth
+*.npy
+*.pkl
+*.safetensors
+
+# Logs
+*.log
+*.csv
+runs/
+*.tfevents.*
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Models and checkpoints (ignore large files)
+models/**/*.pt
+models/**/*.safetensors
+models/**/*.bin
+training/checkpoints/
+training/data/
+training/logs/
+
+# Temporary files
+*.tmp
+*.bak
+*.cache
