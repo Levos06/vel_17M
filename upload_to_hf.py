@@ -93,11 +93,11 @@ Transformer модель с архитектурой DeepSeek (RMSNorm, RoPE, Sw
 
 ## Характеристики
 
-- **Параметры**: ~17M (SFT версия)
+- **Параметры**: ~17M
 - **Архитектура**: Transformer с RMSNorm, RoPE, SwiGLU
 - **Контекст**: 512 токенов
 - **Словарь**: GPT-2 tokenizer (50,257 токенов)
-- **Обучение**: Pre-training + Supervised Fine-Tuning
+- **Обучение**: Supervised Fine-Tuning
 
 ## Использование
 
@@ -135,9 +135,7 @@ tokenizer = GPT2Tokenizer.from_pretrained("gpt2")
 
 ## Обучение
 
-Модель обучена на:
-1. FineWeb-Edu dataset для pre-training
-2. Supervised Fine-Tuning на инструкциях
+Модель обучена методом Supervised Fine-Tuning на инструкциях.
 
 Подробности обучения см. в [training/README.md](https://github.com/Levos06/vel_17M/blob/main/training/README.md)
 
